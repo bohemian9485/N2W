@@ -85,7 +85,7 @@
         GetHundreds = Result
     End Function
 
-    Public Function NumberToWords(MyNumber As Double) As String
+    Public Function NumberToWords(MyNumber As String) As String
         Dim Pesos As String = vbNullString
         Dim Cents As String = vbNullString
         Dim RightMost As String
@@ -95,7 +95,7 @@
         Place(4) = " Billion "
         Place(5) = " Trillion "
         ' String representation of amount.
-        MyNumber = Trim(Str(MyNumber))
+        MyNumber = Trim(MyNumber)
         ' Position of decimal place 0 if none.
         Dim DecimalPlace As Integer = InStr(MyNumber, ".")
         ' Convert cents and set MyNumber to dollar amount.

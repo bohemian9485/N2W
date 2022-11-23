@@ -90,10 +90,10 @@
         Dim Cents As String = vbNullString
         Dim RightMost As String
         Dim Place(9) As String
-        Place(2) = " Thousand "
-        Place(3) = " Million "
-        Place(4) = " Billion "
-        Place(5) = " Trillion "
+        Place(2) = " Thousand"
+        Place(3) = " Million"
+        Place(4) = " Billion"
+        Place(5) = " Trillion"
         ' String representation of amount.
         MyNumber = Trim(MyNumber)
         ' Position of decimal place 0 if none.

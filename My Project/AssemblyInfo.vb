@@ -16,7 +16,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyCopyright("Reynaldo Ibarra C. Tubianosa Copyright ©  2022")>
 <Assembly: AssemblyTrademark("Reynaldo Ibarra C. Tubianosa")>
 
-<Assembly: ComVisible(True)>
+<Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
 <Assembly: Guid("2504ed32-fa8f-40bf-a73d-ca9781f5727b")>
@@ -32,6 +32,6 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("1.0.1.0")>
-<Assembly: AssemblyFileVersion("1.0.1.0")>
+<Assembly: AssemblyVersion("1.0.2.0")>
+<Assembly: AssemblyFileVersion("1.0.2.0")>
 <Assembly: NeutralResourcesLanguage("en-US")>

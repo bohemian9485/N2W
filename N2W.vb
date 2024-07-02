@@ -45,7 +45,11 @@
                 Case 8 : GetTens = "Eighty"
                 Case 9 : GetTens = "Ninety"
             End Select
-            GetTens &= GetDigit(Right(TensText, 1)) ' Retrieve ones place.
+            Dim tmp As String = GetDigit(Right(TensText, 1)) ' Retrieve ones place.
+            If tmp <> vbNullString Then
+                GetTens &= $"-{tmp}"
+            End If
+            'GetTens &= GetDigit(Right(TensText, 1)) ' Retrieve ones place.
         End If
         Return GetTens
     End Function
